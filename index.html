@@ -61,29 +61,27 @@
     function display(val)
     {
         
-        num=document.getElementById("result").value +=val
+       result.value +=val
         
     }
 
     function find() {
         
-         num=document.getElementById("result").value
+         num=result.value
          r=eval(num)
-         document.getElementById("result").value=r
-         return r
-
-
+         result.value=r
+        
     }
 
     function clearall() {
-        document.getElementById("result").value=""
+      result.value=""
         
     }
     function deleteone() {
 
-       num= document.getElementById("result").value
+       num= result.value
        r=num.slice(0,-1)
-       document.getElementById("result").value=r
+       result.value=r
     }
 </script>
 
