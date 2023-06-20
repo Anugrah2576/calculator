@@ -52,4 +52,10 @@
 .calinput{
 text-align: center;
 }
+@media(min-width:320px){
+    .cal{
+        min-width: 320px;
+        justify-content: center;
+    }
 
+}
